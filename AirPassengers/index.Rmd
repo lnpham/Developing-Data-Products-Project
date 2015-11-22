@@ -1,0 +1,51 @@
+---
+title       : Developing Data Product Project
+subtitle    : Air Passengers Predictor
+author      : Lan Pham
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+
+## Air Passengers Predictor
+
+
+This presentation is being created as part of the Coursera Developing Data Products class. The presentation describes a simple application that predict the number of air passengers for future months based on provided training dataset.
+
+--- .class #id 
+
+## The Data
+
+This application is based on the "AirPassengers" dataset, which is available in R package.  It is a time series dataset of the monthly  totals of airline passengers from January 1949 to December 1960.
+
+```{r, echo=FALSE}
+AirPassengers
+```
+
+
+--- .class #id 
+
+## The Application
+
+The application allows the user to:
+
+1.  Adjust the date range slider to select the training dataset
+2.  Select the number of months to predict
+3.  Show/hide error bounds and legend for the dataset
+
+
+--- .class #id 
+
+## Project Location
+
+
+GITHUB: <https://github.com/lnpham/Developing-Data-Products-Project>
+
+shinyapps.io: <https://lnpham.shinyapps.io/Airline_Predictor>
+
+RPubs: <http://rpubs.com/lnpham/AirPassengerPredictor>
