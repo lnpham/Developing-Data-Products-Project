@@ -4,7 +4,7 @@ This application is based on the monthly totals of airline passengers from Janua
 
 The user has the option show/hide error bounds and legend for the dataset.
 
-Source code is available on the [GitHub]xxxxx).
+Source code is available on the [GitHub]<https://github.com/lnpham/Developing-Data-Products-Project>.
 
 
 
